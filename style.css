@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(135deg, #e20b7d, #f1a3ee);
+    font-family: 'Segoe UI', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-box {
+    background-color: rgb(185, 182, 183);
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 20px rgba(185, 184, 184, 0.1);
+    width: 60%;
+    max-width: 800px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  textarea {
+    resize: none;
+    height: 100px;
+    overflow-y: auto;
+  }
+  
+  .generate-btn {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  
+  .magic-icon {
+    margin-right: 8px;
+  }
+
+  pre {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 1rem;
+    overflow-x: auto;
+  }
+  
+  iframe {
+    width: 100%;
+    min-height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    margin-top: 1rem;
+  }
+
+  /* Existing styles */
+
+#code-section {
+  margin-top: 1rem;
+  border: 1px solid #ccc; /* Optional */
+  border-radius: 0.5rem; /* Optional */
+  overflow: hidden; /* Important */
+}
+
+#code-section h5 {
+  padding: 0.5rem;
+  background-color: #f8f9fa; /* Optional */
+  border-bottom: 1px solid #eee; /* Optional */
+  margin-bottom: 0;
+}
+
+#code-section pre {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 0;
+  overflow: auto; /* Important: Adds scrollbars */
+  max-height: 400px; /* Adjust as needed */
+  margin-bottom: 0;
+}
+
+#code-section button {
+  display: block;
+  width: 100%;
+  margin-top: 0.5rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+  
+  
